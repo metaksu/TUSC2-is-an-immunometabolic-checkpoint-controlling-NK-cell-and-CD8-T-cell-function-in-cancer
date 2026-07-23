@@ -9,14 +9,14 @@ accessions were verified to the correct dataset; the analysis code is archived a
 | Tumor-infiltrating NK-cell atlas (Tang et al. 2023), processed | reference 1 | Zenodo **doi:10.5281/zenodo.8275845** | ✓ |
 | Tang et al. 2023 atlas, raw sequencing | reference 1 | NCBI BioProject **PRJNA877828** (provided by the original authors upon request) | ✓ |
 | CD8⁺ T-cell atlas, huARdb v2 (Xue et al. 2025), processed | reference 2 | Zenodo **doi:10.5281/zenodo.12542577** | ✓ |
-| Analysis code + cached differential-expression / GSEA tables | this study | Zenodo **doi:10.5281/zenodo.21515707** (concept DOI — all versions) | ✓ |
+| Analysis code + cached differential-expression / GSEA tables | this study | Zenodo **doi:10.5281/zenodo.21516067** (concept DOI — all versions) | ✓ |
 
 ## Notes
 
 - **Raw-data provenance:** the Tang raw sequencing data used here were provided by the original authors upon request; the CD8 huARdb v2 atlas (Xue et al. 2025) was obtained from its public Zenodo deposit.
 - **Code DOI:** the analysis repository (pipeline code + the cached DEG, GSEA and audit
   tables that regenerate every panel) is archived at Zenodo concept DOI
-  **10.5281/zenodo.21515707**, which always resolves to the latest version.
+  **10.5281/zenodo.21516067**, which always resolves to the latest version.
 - **huARdb DOI reconciliation:** the CD8 atlas used here is **huARdb v2**, described in **Xue et
   al., *Nat Methods* 2025;22(2):435-445 (doi:10.1038/s41592-024-02530-0)** with the processed
   data at **Zenodo 12542577** — that is the pairing to cite. The separate *Nucleic Acids Res*
