@@ -1,0 +1,4 @@
+context	lfc_cutoff	UP	DOWN	total	n_calibrated_sig	n_calibrated_sig_floored
+Tang_Tumor	0.1	65	58	123	0	0
+Tang_Tumor	0.25	15	8	23	0	0
+Tang_Tumor	0.585	0	0	0	0	0

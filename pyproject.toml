@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tusc2-deg"
+version = "0.1.0"
+description = "TUSC2-/+ differential-expression and pathway-enrichment figures for tumour-infiltrating NK and CD8 T cells"
+license = {text = "MIT"}
+requires-python = ">=3.13"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "scanpy",
+    "anndata",
+    "pydeseq2",
+    "gseapy",
+    "adjustText",
+    "matplotlib",
+    "openpyxl",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["tusc2_deg*"]
+
+[tool.setuptools.package-data]
+tusc2_deg = ["gene_sets/*.grp"]
+
+[tool.pytest.ini_options]
+markers = ["slow: loads raw atlases (single-cell re-verification)"]
+
+[tool.ruff]
+line-length = 100

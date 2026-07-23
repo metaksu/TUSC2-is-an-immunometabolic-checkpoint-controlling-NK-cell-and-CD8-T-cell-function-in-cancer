@@ -1,0 +1,69 @@
+NK_TUSC2_STRESS_IEG
+# Curated 44-gene Stress / IEG / antioxidant / UPR set used for volcano label
+# colouring in the volcano panels.
+# Sources: MSigDB Hallmark TNF-alpha Signaling via NF-kB, Hallmark UV
+# Response Up, GO:0006950 (response to stress). Antioxidant subset
+# (PRDX*, SOD1, GPX1, TXNRD1, TXNIP, GSTP1) is included here, not in
+# metabolism, as a distinct biological axis rather than part of OXPHOS.
+#
+# AP-1 / early-response
+FOS
+FOSB
+JUN
+JUNB
+JUND
+EGR1
+EGR2
+EGR3
+IER2
+IER3
+ATF3
+BTG1
+BTG2
+# Heat-shock
+HSPA1A
+HSPA1B
+HSPA6
+HSPA8
+HSPB1
+DNAJB1
+DNAJB4
+DNAJA1
+HSP90AA1
+# NR4A receptors
+NR4A1
+NR4A2
+NR4A3
+# Antioxidant axis (mechanistic mirror to stress)
+TXNIP
+PRDX1
+PRDX2
+PRDX3
+GSTP1
+SOD1
+GPX1
+TXNRD1
+# UPR / stress feedback
+DDIT3
+GADD45A
+GADD45B
+DUSP1
+DUSP2
+PPP1R15A
+NFKBIA
+ZFP36
+ZFP36L1
+ZFP36L2
+TNFAIP3
+# Additional markers (Crinier / Tang / Collins):
+# MAFF — stressed CD56bright TF (hypoxia/ROS axis)
+# KLF2 — Crinier 2018 homeostatic / S1PR5 / migration TF
+# KLF6 — Tang 2023 elevated in TaNK dysfunction; Crinier homeostatic TF
+# EOMES — assigned to stress here (not exhaustion). Collins/Zhang 2021 use EOMES
+#   as the NK maturation rheostat, not a dysfunction marker. The CD8 config also
+#   places EOMES in PROGENITOR (Intlekofer 2005; Zheng 2021), not exhaustion —
+#   both pipelines agree EOMES is never terminal-exhaustion.
+MAFF
+KLF2
+KLF6
+EOMES

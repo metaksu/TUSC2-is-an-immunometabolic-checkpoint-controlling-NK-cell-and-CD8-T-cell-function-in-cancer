@@ -1,0 +1,44 @@
+NK_TUSC2_NK_RECEPTORS
+# Curated NK-defining surface receptor set used for volcano label colouring in
+# the volcano panels. The KLR / NCR / inhibitory receptor axis is central to NK
+# biology but absent from MSigDB Hallmark, so it is captured here as a dedicated
+# family (its genes resolve to the 'other' colour in gene_family()).
+# Sources: canonical CD-numbered NK receptors + checkpoint/exhaustion receptors.
+#
+# Activating / lineage-defining NK receptors
+NCAM1
+FCGR3A
+NCR1
+NCR2
+NCR3
+KLRB1
+KLRC1
+KLRC2
+KLRC3
+KLRD1
+KLRF1
+KLRG1
+KLRK1
+CD160
+CD244
+CD226
+# Selectins / homing (NK1B/NK2 markers)
+SELL
+# Inhibitory / checkpoint / exhaustion
+PDCD1
+LAG3
+HAVCR2
+TIGIT
+CTLA4
+BTLA
+KIR2DL1
+KIR2DL3
+KIR2DL4
+KIR3DL1
+KIR3DL2
+# Additional markers (Tang 2023):
+# ADGRG1 (GPR56) — mature-NK identity marker (CD56dim/NK1)
+# RGS1 — Tang 2023 tissue-infiltrating NK marker; opposes KLF2/SELL
+#   trafficking program (residence axis)
+ADGRG1
+RGS1
