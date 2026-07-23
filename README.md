@@ -20,10 +20,14 @@ collect_supplementary.py     # gathers S1-S4 + Table S1 into supplementary/
 make_supplementary_xlsx.py   # merges the collected files into one workbook
 tusc2_deg/
 ├── paths.py                 # input-data paths (only needed for the from-raw path)
+├── gene_sets/               # vendored MSigDB Hallmark .grp sets (panel B + GSEA)
 ├── nk/                      # NK pipeline  (Tang 2023)
 ├── cd8/                     # CD8 pipeline (huARdb v2, Xue 2025)
 │   └── output/{degs,gsea,audit}/   # cached tables that drive every panel
 └── publication/            # panel renderers (volcano, GSEA bar, running-ES)
+tests/                       # offline test suite
+figures/                     # written by reproduce.py — the 4 Figure 7 panels
+supplementary/               # written by reproduce.py — S1-S4 + Table S1 + xlsx
 ```
 
 `nk/` and `cd8/` are parallel pipelines with the same structure
@@ -130,3 +134,13 @@ MPLBACKEND=Agg python -m pytest -q
 The suite runs offline against the cached tables and injectable renderers. A
 single `slow`-marked single-cell cross-check loads a raw atlas if one is present
 and otherwise skips.
+
+## Citation
+
+This analysis code is archived at Zenodo: **10.5281/zenodo.21515707** (concept
+DOI — always resolves to the latest version). Please cite it alongside the
+accompanying publication.
+
+## License
+
+MIT — see `LICENSE`.

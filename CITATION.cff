@@ -1,0 +1,90 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software or its results, please cite the associated article
+  (see preferred-citation) together with this archived code.
+title: >-
+  TUSC2 Figure 7 analysis: differential expression and pathway enrichment in
+  tumor-infiltrating NK and CD8 T cells
+abstract: >-
+  Self-contained analysis code and cached differential-expression / GSEA tables
+  that regenerate Figure 7 — TUSC2-negative vs TUSC2-positive differential
+  expression and rank-based pathway enrichment in tumor-infiltrating NK cells
+  (Tang 2023) and CD8 T cells (huARdb v2, Xue 2025).
+type: software
+version: "1.0.0"
+date-released: "2026-07-23"
+doi: "10.5281/zenodo.21515707"
+license: MIT
+url: "https://doi.org/10.5281/zenodo.21515707"
+repository-code: "https://doi.org/10.5281/zenodo.21515707"
+keywords:
+  - TUSC2
+  - natural killer cells
+  - CD8 T cells
+  - differential expression
+  - gene set enrichment analysis
+  - single-cell RNA-seq
+  - tumor immunology
+authors:
+  - family-names: Mohammed
+    given-names: "Muna A."
+    affiliation: "Department of Biomedical Sciences, School of Graduate Studies and Research, Meharry Medical College, Nashville, TN, USA"
+  - family-names: "Gonzalez Ochoa"
+    given-names: Salvador
+    affiliation: "Department of Biochemistry, Cancer Biology, Neuroscience and Pharmacology, School of Medicine, Meharry Medical College, Nashville, TN, USA"
+  - family-names: Aksu
+    given-names: "Metin L."
+    affiliation: "School of Medicine, Meharry Medical College, Nashville, TN, USA"
+  - family-names: Tonello
+    given-names: Jane
+    affiliation: "Department of Biochemistry, Cancer Biology, Neuroscience and Pharmacology, School of Medicine, Meharry Medical College, Nashville, TN, USA"
+  - family-names: Kanagasabai
+    given-names: Thanigaivelan
+    affiliation: "Department of Biochemistry, Cancer Biology, Neuroscience and Pharmacology, School of Medicine, Meharry Medical College, Nashville, TN, USA"
+  - family-names: Rajakaruna
+    given-names: Harshana
+    affiliation: "The Office for Research and Innovation, Meharry Medical College, Nashville, TN, USA"
+  - family-names: Palmieri
+    given-names: "Erika M."
+    affiliation: "Cancer Innovation Laboratory, NCI-Frederick, Frederick, MD, USA"
+  - family-names: McVicar
+    given-names: "Daniel W."
+    affiliation: "Cancer Innovation Laboratory, NCI-Frederick, Frederick, MD, USA"
+  - family-names: Berger
+    given-names: Mark
+    affiliation: "Genprex Inc., Austin, TX, USA"
+  - family-names: Ivanova
+    given-names: "Alla V."
+    affiliation: "Department of Biochemistry, Cancer Biology, Neuroscience and Pharmacology, School of Medicine, Meharry Medical College, Nashville, TN, USA; School of Medicine, Meharry Medical College, Nashville, TN, USA"
+  - family-names: Shanker
+    given-names: Anil
+    affiliation: "Department of Biomedical Sciences, School of Graduate Studies and Research, Meharry Medical College, Nashville, TN, USA; Department of Biochemistry, Cancer Biology, Neuroscience and Pharmacology, School of Medicine, Meharry Medical College, Nashville, TN, USA; The Office for Research and Innovation, Meharry Medical College, Nashville, TN, USA"
+preferred-citation:
+  type: article
+  title: >-
+    TUSC2 is an immunometabolic checkpoint controlling NK-cell and CD8+ T-cell
+    function in cancer
+  # journal, year, volume, and article DOI to be added upon publication
+  authors:
+    - family-names: Mohammed
+      given-names: "Muna A."
+    - family-names: "Gonzalez Ochoa"
+      given-names: Salvador
+    - family-names: Aksu
+      given-names: "Metin L."
+    - family-names: Tonello
+      given-names: Jane
+    - family-names: Kanagasabai
+      given-names: Thanigaivelan
+    - family-names: Rajakaruna
+      given-names: Harshana
+    - family-names: Palmieri
+      given-names: "Erika M."
+    - family-names: McVicar
+      given-names: "Daniel W."
+    - family-names: Berger
+      given-names: Mark
+    - family-names: Ivanova
+      given-names: "Alla V."
+    - family-names: Shanker
+      given-names: Anil
