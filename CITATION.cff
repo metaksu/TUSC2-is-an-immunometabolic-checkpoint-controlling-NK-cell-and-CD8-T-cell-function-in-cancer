@@ -13,10 +13,10 @@ abstract: >-
 type: software
 version: "1.0.0"
 date-released: "2026-07-23"
-doi: "10.5281/zenodo.21516067"
+doi: "10.5281/zenodo.21515707"
 license: MIT
-url: "https://doi.org/10.5281/zenodo.21516067"
-repository-code: "https://doi.org/10.5281/zenodo.21516067"
+url: "https://doi.org/10.5281/zenodo.21515707"
+repository-code: "https://doi.org/10.5281/zenodo.21515707"
 keywords:
   - TUSC2
   - natural killer cells

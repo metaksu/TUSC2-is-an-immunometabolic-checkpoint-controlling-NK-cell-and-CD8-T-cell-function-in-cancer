@@ -137,7 +137,7 @@ and otherwise skips.
 
 ## Citation
 
-This analysis code is archived at Zenodo: **10.5281/zenodo.21516067** (concept
+This analysis code is archived at Zenodo: **10.5281/zenodo.21515707** (concept
 DOI — always resolves to the latest version). Please cite it alongside the
 accompanying publication.
 
