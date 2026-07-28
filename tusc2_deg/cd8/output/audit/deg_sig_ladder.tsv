@@ -1,0 +1,4 @@
+context	lfc_cutoff	UP	DOWN	total	n_calibrated_sig	n_calibrated_sig_floored
+CD8_TIL	0.1	2013	1639	3652	689	687
+CD8_TIL	0.25	159	546	705	689	687
+CD8_TIL	0.585	1	174	175	689	687
