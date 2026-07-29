@@ -135,11 +135,6 @@ The suite runs offline against the cached tables and injectable renderers. A
 single `slow`-marked single-cell cross-check loads a raw atlas if one is present
 and otherwise skips.
 
-## Citation
-
-This analysis code is archived at Zenodo: **10.5281/zenodo.21515707** (concept
-DOI, which always resolves to the latest version). Please cite it alongside the
-accompanying publication.
 
 ## License
 
